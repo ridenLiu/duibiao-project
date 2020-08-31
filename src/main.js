@@ -1,10 +1,18 @@
+// 引入框架
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import network from './network'
 
-console.log(network)
+// 引入组件
+import ElementUI from 'element-ui';
+
+// 公共样式
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
+
+// import network from './network'
 
 
 Vue.config.productionTip = false;
