@@ -9,6 +9,7 @@ import ElementUI from 'element-ui';
 
 // 公共样式
 import 'element-ui/lib/theme-chalk/index.css';
+import './assets/css/normalize.css'
 
 Vue.use(ElementUI);
 
